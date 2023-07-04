@@ -1,0 +1,12 @@
+package Bai05;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LopThucPham lopThucPham = new LopThucPham("S", "B", 0, 20/01/2001, 20/01/2001);
+		
+		System.out.println(lopThucPham);
+	}
+
+}

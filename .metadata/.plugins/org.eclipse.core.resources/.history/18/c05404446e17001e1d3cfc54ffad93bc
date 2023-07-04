@@ -1,0 +1,100 @@
+package Bai04;
+
+public class Xe {
+	private String tenChuXe; 
+	private String loaiXe; 
+	private int dungTich; 
+	private int triGia;
+
+	
+	
+	public String getTenChuXe() {
+		return tenChuXe;
+	}
+	public void setTenChuXe(String tenChuXe) {
+		if (tenChuXe.trim().equals("")) {
+			this.tenChuXe = tenChuXe;
+		} else {
+			System.out.println("Khong de  trong");
+		}
+
+	}
+	public String getLoaiXe() {
+		return loaiXe;
+	}
+	public void setLoaiXe(String loaiXe) {
+		if (loaiXe.trim().equals("")) {
+			this.loaiXe = loaiXe;
+		} else {
+			System.out.println("Khong de trong");
+		}
+
+	}
+	public int getDungTich() {
+		return dungTich;
+	}
+	public void setDungTich(int dungTich) {
+		if (dungTich>0) {
+			this.dungTich = dungTich;
+		} else {
+			System.out.println("Dung tich lon hon 0");
+		}
+	
+	}
+	public int getTriGia() {
+		return triGia;
+	}
+	public void setTriGia(int triGia) {
+		if (triGia>0) {
+			this.triGia = triGia;	
+		} else {
+			System.out.println("Tri gia lon hon 0");
+		}
+
+	}
+
+
+	
+	public Xe() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	public Xe(String tenChuXe, String loaiXe, int dungTich, int triGia) {
+		super();
+		this.tenChuXe = tenChuXe;
+		this.loaiXe = loaiXe;
+		this.dungTich = dungTich;
+		this.triGia = triGia;
+	}
+	
+	
+	public void Thue() {
+		double thue = triGia*0.01; 
+//		if (dungTich < 100) {
+//			thue = triGia*0.01; 
+//		} else if (dungTich<200 ) {
+//			thue = triGia * 0.03;
+//		} else {
+//			thue = triGia*0.005;
+//		}
+	}
+	@Override
+	public String toString() {
+		return "Xe [tenChuXe=" + tenChuXe + ", loaiXe=" + loaiXe + ", dungTich=" + dungTich + ", triGia=" + triGia
+				+ "]";
+	}
+
+	
+	
+	
+
+
+
+	}
+	
+	
+	
+	
+

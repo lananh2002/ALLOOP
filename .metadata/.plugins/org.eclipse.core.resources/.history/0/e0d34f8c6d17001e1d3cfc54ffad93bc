@@ -1,0 +1,12 @@
+package Bai04;
+
+public class main04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Xe xe = new Xe("ACV", "Nguyen Van A", 50, 300);
+		
+		System.out.println(xe);
+	}
+
+}

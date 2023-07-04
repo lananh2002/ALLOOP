@@ -1,0 +1,10 @@
+package Bai04;
+
+public class Xe {
+	private String tenChuXe; 
+	private String loaiXe; 
+	private int dungTich; 
+	private int triGia; 
+	
+	
+}

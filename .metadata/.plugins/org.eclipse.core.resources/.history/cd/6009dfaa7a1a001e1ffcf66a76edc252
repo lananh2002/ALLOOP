@@ -1,0 +1,12 @@
+package Bai05;
+import java.time.LocalDate;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LopThucPham lopThucPham = new LopThucPham("S", "B", 5, LocalDate.of(2022, 10, 14), LocalDate.of(2022, 10, 14));
+		
+		System.out.println("\n"+lopThucPham);
+	}
+
+}
