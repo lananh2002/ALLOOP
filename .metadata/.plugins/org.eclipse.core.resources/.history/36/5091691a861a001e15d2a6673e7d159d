@@ -1,0 +1,36 @@
+package Bai8;
+
+public class CDList {
+    private CD[] cds;
+    private int count;
+
+    public CDList(int n) {
+        cds = new CD[n];
+        count = 0;
+    }
+
+    public boolean themCD(CD cd) {
+        if (count < cds.length) {
+            for (int i = 0; i < count; i++) {
+                if (cds[i].getMaCD() == cd.getMaCD()) {
+                    return false; // Trùng mã CD
+                }
+            }
+            cds[count] = cd;
+            count++;
+            return true;
+        }
+        return false; // Mảng đã đầy
+    }
+
+    public int soLuongCD() {
+        return count;
+    }
+
+    public double tongGiaThanh() {
+        double tong = 0;
+        for (int i = 0; i < count; i++) {
+            tong += cds[i].getGiaThanh();
+        }
+        return tong;
+    }

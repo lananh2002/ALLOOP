@@ -1,0 +1,32 @@
+package Bai06;
+
+public class Main {
+    public static void main(String[] args) {
+        // Tạo 3 đối tượng Account
+        Account acc1 = new Account("Ted Murphy", 72354, 102.56);
+        Account acc2 = new Account("Jane Smith", 69713, 40.00);
+        Account acc3 = new Account("Edward Demsey", 93757, 759.32);
+
+        // Gửi thêm số tiền vào tài khoản
+        acc1.deposit(25.85);
+        acc2.deposit(500.00);
+
+        // Rút tiền từ tài khoản
+        acc2.withdraw(430.75, 1.50);
+
+        // Tính tiền lãi
+        acc3.addInterest();
+
+        // Xuất thông tin tài khoản
+        System.out.println(acc1);
+        System.out.println(acc2);
+        System.out.println(acc3);
+
+        // Chuyển tiền từ acc2 sang acc1
+        acc2.transfer(acc1, 100.00);
+
+        // Xuất thông tin sau khi chuyển tiền
+        System.out.println(acc1);
+        System.out.println(acc2);
+    }
+}
