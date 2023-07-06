@@ -56,7 +56,7 @@
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item key="DIALOG_X_ORIGIN" value="151"/>
-		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
 		<item key="DIALOG_WIDTH" value="672"/>
 		<item key="DIALOG_HEIGHT" value="842"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
@@ -98,5 +98,12 @@
 		<item key="CASE_SENSITIVE" value="false"/>
 		<item key="INCLUDE_MASK" value="11"/>
 		<item key="HISTORY_SIZE" value="0"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item key="width" value="600"/>
+		<item key="height" value="400"/>
+	</section>
+	<section name="SelfEncapsulateFieldWizard">
+		<item key="GenerateJavadoc" value="false"/>
 	</section>
 </section>

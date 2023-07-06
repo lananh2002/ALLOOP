@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
     <fullyQualifiedTypeName name="java.util.EmptyStackException"/>
     <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
@@ -11,11 +10,19 @@
     <fullyQualifiedTypeName name="Bai04.Xe"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="Bai05.Main"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Bai05.LopThucPham"/>
+    <fullyQualifiedTypeName name="Bai1.ChuyenXe"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Bai1.XeNoiThanh"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="baigk.Phim"/>
+    <fullyQualifiedTypeName name="baigk.PhimTrongNuoc"/>
+    <fullyQualifiedTypeName name="baigk.PhimNuocNgoai"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="bai2.SachGiaoKhoa"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="bai2.SachThamKhao"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>
